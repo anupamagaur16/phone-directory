@@ -1,21 +1,20 @@
 import React, { Component } from 'react';
-import { Fragment } from 'react';
+import Header from "./Header";
 
 class App extends Component {
   render() {
     return (
-      <Fragment>
-        <div className="header">
-          Phone Directory
-        </div>
+      <div>
+        <Header></Header>
         <button> Add </button>
         <div>
           <span> Name </span><br/>
           <span> Phone </span>
         </div>
-      </Fragment>      
+      </div>          
     );
   }
 }
 
 export default App;
+
